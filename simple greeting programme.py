@@ -7,3 +7,6 @@ def greet(name="World", language="English"):
         print("Invalid language.")
 greet()
 greet(name="John")
+greet(language="Spanish")
+greet(name="Jane", language="Spanish")
+greet(name="Alice", language="French")
