@@ -5,3 +5,5 @@ def greet(name="World", language="English"):
         print(f"Hola, {name}!")
     else:
         print("Invalid language.")
+greet()
+greet(name="John")
